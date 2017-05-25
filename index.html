@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html> 
+   <head>
+      <meta charset="UTF-8">
+      <title>Nodes Management</title>
+      <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
+      <script src="bower_components/angular/angular.js"></script>
+      <script src="bower_components/angular-route/angular-route.js"></script>
+      <script src="js/app.js"></script>
+      <script src="js/services.js"></script>
+      <script src="js/controllers.js"></script>
+      <script type="text/javascript">
+    angular.element(document.getElementsByTagName('head')).append(angular.element('<base href="' + window.location.pathname + '" />'));
+  </script>
+   </head>
+<body ng-app="MngNodesApp"> 
+  <ng-view></ng-view>
+
+
+</body>
+</html>
