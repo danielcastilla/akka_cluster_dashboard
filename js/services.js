@@ -45,7 +45,6 @@ angular.module('MngNodesApp.services', []).
           url: urlBase,
           headers : {'Content-Type':'application/x-www-form-urlencoded; charset=UTF-8'}
          });
-        console.log("111111111");
     }
     return nodesAPI;
   });
